@@ -1,0 +1,135 @@
+body{
+    display: flex;
+    justify-content:  center;
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(fon.jpg);
+    background-size: cover;
+}
+.container{
+    display: flex;
+    background: linear-gradient(rgba(62, 187, 149, 0.7), rgba(121, 36, 88, 0.767));
+    border-radius: 40px;
+    margin-top: 50px;
+    height: 680px;
+    width: 1000px;
+}
+.cont1{
+    display: flex;
+    flex-direction: column;
+    background-image: url(fon2.jpg);
+    background-size: cover;
+    width: 600px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+}
+h1{
+    display: flex;
+    font-family: 'Anton', sans-serif;
+    color: #ffffff;
+    font-size: 110px;
+    margin-left: 40px;
+    text-shadow: 2px 0px 3px #000000, -2px 0px 3px #000000;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.596), rgba(47, 207, 255, 0.205)), url(fon3.jpg);
+    background-size: cover;
+    border-top-right-radius: 40px;
+    width: 400px;
+    height: 600px;
+}
+h2{
+    font-size: 35px;
+    margin-left: 40px;
+    margin-bottom: -10px;
+    font-family: 'Anton', sans-serif;
+}
+.text{
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 45px;
+    margin-right: 45px;
+    color: #585858;
+}
+span{
+    color: #73d3ff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container2{
+    display: flex;
+    margin-left: 0px;
+    box-shadow: 0 -1px 0px 0px #7affedc5;
+    width: 600px;
+    height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bolder;
+    text-shadow: 2px 0px 3px #000000, -2px 0px 3px #000000;
+    
+}
+.cont2{
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    display: flex;
+}
+.img1{
+    display: block;
+    background-image:linear-gradient(rgba(88, 14, 65, 0.705), rgba(126, 16, 84, 0.616)), url(s1.jpg);
+    background-size: cover;
+    width: 100px;
+    height: 80px;
+}
+.img2{
+    display: block;
+    background:linear-gradient(rgba(21, 13, 92, 0.596), rgba(6, 81, 104, 0.432)), url(s2.jpg);
+    background-size: cover;
+    width: 100px;
+    height: 80px;
+}
+.img3{
+    display: block;
+    background:linear-gradient(rgba(88, 14, 65, 0.705), rgba(126, 16, 84, 0.616)), url(s3.jpg);
+    background-size: cover;
+    width: 100px;
+    height: 80px;
+}
+.img4{
+    display: block;
+    background-color: #3b3b3bf6;
+    width: 100px;
+    height: 80px;
+    border-bottom-right-radius: 40px;
+
+}
+.age{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 30px;
+    color: #787a71;
+}
+.foot{
+    color: rgba(179, 189, 189, 0.568);
+    margin-left: 40px;
+   
+}
+.test{
+    display: flex;
+    flex-direction: column;
+}
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Josefin+Sans&display=swap');
