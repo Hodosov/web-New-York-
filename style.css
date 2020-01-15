@@ -1,14 +1,14 @@
 body{
     display: flex;
     justify-content:  center;
-    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(fon.jpg);
+    background: linear-gradient(#000000b3, #000000b3), url(fon.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .container{
     display: flex;
-    background: linear-gradient(rgba(62, 187, 149, 0.7), rgba(121, 36, 88, 0.767));
+    background: linear-gradient(#3ebb95b3, #792458c4);
     border-radius: 40px;
-    margin-top: 50px;
     height: 680px;
     width: 1000px;
 }
@@ -26,7 +26,7 @@ body{
     flex-direction: column;
     justify-content: flex-end;
     background-size: cover;
-    width: 600px;
+
     height: 600px;
 }
 h1{
@@ -34,102 +34,93 @@ h1{
     font-family: 'Anton', sans-serif;
     color: #ffffff;
     font-size: 110px;
-    margin-left: 40px;
+    padding-left: 40px;
     text-shadow: 2px 0px 3px #000000, -2px 0px 3px #000000;
 }
 .container3{
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.596), rgba(47, 207, 255, 0.205)), url(fon3.jpg);
+    background-image: linear-gradient(#ffffff98, #2fcfff34), url(fon3.jpg);
     background-size: cover;
     border-top-right-radius: 40px;
-    width: 400px;
     height: 600px;
 }
 h2{
+    display: flex;
     font-size: 35px;
-    margin-left: 40px;
-    margin-bottom: -10px;
+    padding: 10px 40px;
+    margin-bottom: 5px;
     font-family: 'Anton', sans-serif;
 }
-.text{
+p{
+    display: flex;
     font-size: 25px;
     font-family: 'Josefin Sans', sans-serif;
-    margin-left: 45px;
-    margin-right: 45px;
+    padding: 0 45px;
+    margin-top: 0;
     color: #585858;
 }
-span{
+p.text{
+    display: flex;
     color: #73d3ff;
     font-size: 20px;
     font-weight: bold;
 }
 .container2{
     display: flex;
-    margin-left: 0px;
+    justify-content: space-between;
+    padding: 0px 20px;
     box-shadow: 0 -1px 0px 0px #7affedc5;
-    width: 600px;
     height: 80px;
 }
-nav ul li{
-    display: inline-block;
-    padding: 10px;
+a{
+    display: inline-flex;
+    padding: 20px;   
     font-size: 18px;
     color: #ffffff;
     font-weight: bolder;
     text-shadow: 2px 0px 3px #000000, -2px 0px 3px #000000;
-    
 }
 .cont2{
     display: flex;
     flex-direction: column;
 }
-.img{
+.footerImg{
     display: flex;
 }
-.img1{
+.img{
     display: block;
-    background-image:linear-gradient(rgba(88, 14, 65, 0.705), rgba(126, 16, 84, 0.616)), url(s1.jpg);
     background-size: cover;
     width: 100px;
     height: 80px;
 }
-.img2{
-    display: block;
-    background:linear-gradient(rgba(21, 13, 92, 0.596), rgba(6, 81, 104, 0.432)), url(s2.jpg);
-    background-size: cover;
-    width: 100px;
-    height: 80px;
+div.img.img1{
+    background-image:linear-gradient(#580e41b4, #7e10549d), url(s1.jpg);
 }
-.img3{
-    display: block;
-    background:linear-gradient(rgba(88, 14, 65, 0.705), rgba(126, 16, 84, 0.616)), url(s3.jpg);
-    background-size: cover;
-    width: 100px;
-    height: 80px;
+div.img.img2{
+    background-image:linear-gradient(#150d5c98, #0651686e), url(s2.jpg);
 }
-.img4{
-    display: block;
-    background-color: #3b3b3bf6;
-    width: 100px;
-    height: 80px;
+div.img.img3{
+    background-image:linear-gradient(#580e41b4, #7e10549d), url(s3.jpg);
+}
+div.img.img4{
+    background-color: #3b3b3b;
     border-bottom-right-radius: 40px;
-
 }
 .age{
-    margin-top: 20px;
-    margin-left: 15px;
-    font-size: 30px;
+    font-size: 25px;
+    padding: 0 15px;
     color: #787a71;
+    margin-top: 20px;
 }
-.foot{
-    color: rgba(179, 189, 189, 0.568);
-    margin-left: 40px;
-   
+footer{
+    color: #b3bdbd;
+    padding: 20px 40px;   
 }
-.test{
+.container-body{
     display: flex;
     flex-direction: column;
+    margin: 40px;
 }
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Anton|Josefin+Sans&display=swap');
